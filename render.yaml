@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: food-aggregator
+    plan: free
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3-flash-preview
+      - key: SWIGGY_MCP_URL
+        value: https://mcp.swiggy.com/food
+      - key: ZOMATO_MCP_URL
+        value: https://mcp-server.zomato.com/mcp
+      - key: RUN_SERVER
+        value: "1"

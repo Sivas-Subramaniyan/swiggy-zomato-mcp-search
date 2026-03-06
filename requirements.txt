@@ -1,0 +1,10 @@
+langchain
+langgraph
+langchain-google-genai
+langchain-mcp-adapters
+mcp
+mlflow
+fastapi
+uvicorn
+python-dotenv
+streamlit
