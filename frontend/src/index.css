@@ -467,6 +467,155 @@ body {
     cursor: not-allowed;
 }
 
+/* ─── Connect Panels ─── */
+.connect-panel {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.connect-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.platform-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.status-badge {
+    font-size: 0.72rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.status-badge.ok {
+    background: rgba(34, 197, 94, 0.15);
+    color: #4ade80;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.status-badge.error {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.connect-error {
+    font-size: 0.72rem;
+    color: #f87171;
+    margin: 0;
+    word-break: break-word;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-connected {
+    background: rgba(34, 197, 94, 0.15) !important;
+    border: 1px solid rgba(34, 197, 94, 0.4) !important;
+    color: #4ade80 !important;
+}
+
+.btn-swiggy {
+    background: linear-gradient(135deg, #fc8019, #e06b10) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.btn-swiggy:hover:not(:disabled) {
+    opacity: 0.88;
+}
+
+.btn-zomato {
+    background: linear-gradient(135deg, #e23744, #c1121f) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.btn-zomato:hover:not(:disabled) {
+    opacity: 0.88;
+}
+
+.auth-msg {
+    font-size: 0.75rem;
+    color: #fbbf24;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.label-hint {
+    opacity: 0.55;
+    font-size: 0.72rem;
+}
+
+.token-hint {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.token-hint code {
+    background: rgba(255,255,255,0.08);
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    font-size: 0.68rem;
+}
+
+/* ─── Token Input ─── */
+.token-input-group {
+    margin-bottom: 0.75rem;
+}
+
+.token-input-group label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.35rem;
+}
+
+.token-input-wrapper {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.token-input {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.45rem 0.6rem;
+    color: var(--text-primary);
+    font-size: 0.78rem;
+    outline: none;
+    min-width: 0;
+}
+
+.token-input:focus {
+    border-color: var(--accent);
+}
+
+.token-toggle {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
     .sidebar {
