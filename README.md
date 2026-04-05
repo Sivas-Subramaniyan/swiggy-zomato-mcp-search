@@ -1,4 +1,4 @@
-# 🍔 Food Aggregator Agent
+# 🍔 Food Options Aggregator Agent
 
 An AI-powered food search and ordering assistant that connects to **Swiggy** and **Zomato** simultaneously through their official **Model Context Protocol (MCP)** servers. It compares prices across both platforms, recommends the best option, and walks you through the full ordering flow — all through a conversational chat interface.
 
