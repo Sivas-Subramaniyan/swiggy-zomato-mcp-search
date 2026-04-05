@@ -7,7 +7,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
-dist/
 build/
 
 # Environment
@@ -23,11 +22,29 @@ mlartifacts/
 .idea/
 *.swp
 *.swo
+pyrightconfig.json
 
 # OS
 .DS_Store
 Thumbs.db
+~$*
 
-# Misc
-output.txt
+# Logs & runtime output
 *.log
+logs/
+server.log
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Generated reports
+mcp_tools_report.*
+
+# Claude Code local config
+.claude/
+
+# Office temp files
+*.docx
+*.xlsx
+*.pptx
