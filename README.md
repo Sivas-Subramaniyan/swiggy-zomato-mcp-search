@@ -1,6 +1,6 @@
 # 🍔 Swiggy - Zomato Food Options Aggregator Agent
 
-An AI-powered food search and ordering assistant that connects to **Swiggy** and **Zomato** simultaneously through their official **Model Context Protocol (MCP)** servers. It compares prices across both platforms, recommends the best option, and walks you through the full ordering flow — all through a conversational chat interface.
+An AI-powered food search and ordering assistant that connects to **Swiggy** and **Zomato** simultaneously through their official **Model Context Protocol (MCP)** servers. It first generates potential options, compares prices across both platforms, recommends the best option, and walks you through the full ordering flow — all through a conversational chat interface.
 
 ![React](https://img.shields.io/badge/Frontend-React_19-61DAFB?logo=react)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi)
