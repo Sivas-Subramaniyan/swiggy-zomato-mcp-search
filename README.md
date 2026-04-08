@@ -17,7 +17,7 @@ You type a food query like *"Find chicken biryani options near me"* and the agen
 
 1. Searches Swiggy and Zomato **simultaneously** in a single LLM turn
 2. Presents up to **10 options per platform** sorted by price, with ratings and delivery times
-3. Gives a **smart recommendation** (highlights preferred restaurants like Sangam if present)
+3. Gives a **smart recommendation**
 4. Takes your selection (e.g. *"Zomato 1"* or *"Swiggy 3"*)
 5. Confirms the order details and asks for a **payment method**
 6. Builds the cart, **applies available coupons**, and checks out
