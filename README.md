@@ -10,6 +10,11 @@ An AI-powered food search and ordering assistant that connects to **Swiggy** and
 ![MLflow](https://img.shields.io/badge/Tracing-MLflow-0194E2?logo=mlflow)
 
 ---
+## A short video
+
+https://github.com/user-attachments/assets/1f9ec143-0398-4378-957b-302c955b8812
+
+---
 
 ## What it does
 
